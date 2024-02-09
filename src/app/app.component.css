@@ -1,0 +1,46 @@
+body{
+  font-family: Dana-FaNum, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.btnHover:hover{
+  background-color: #365428 !important;
+  color: #fff;
+}
+
+.button-container {
+  width: 300px; /* Set the width of the container */
+  white-space: nowrap; /* Make sure the buttons stay in one line */
+  overflow-x: auto; /* Add horizontal scrollbar */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.parent {
+  position: relative;
+}
+
+.background-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.linear-gradient {
+  background: rgb(107,167,79);
+  background: linear-gradient(90deg, rgba(107,167,79,1) 35%, rgba(206,226,196,1) 100%);
+  /*background: linear-gradient(90deg, rgba(107,167,79,1) 35%, rgba(206,226,196,1) 100%);*/
+  z-index: 1;
+}
+
+
+.image {
+  z-index: 2;
+  background-image: url('../assets/[fpdl 1.png');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
